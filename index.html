@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+<!--    Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@600&family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@600&family=Lato:wght@300&family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+
+<!--    Import icons-->
+    <script src="https://kit.fontawesome.com/77c1864f2c.js" crossorigin="anonymous"></script>
+
+<!--    Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!--    Custom css -->
+    <link rel="stylesheet" href="static/main.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+<header>
+
+    <nav class="container navbar-header">
+        <a href="index.html"><h2 class="text-g1">GERIGHT</h2></a>
+            <ul class="nav_link">
+                <li><a id="current-page" href="./index.html">Home</a></li>
+                <li><a href="service/service.html">Services</a></li>
+                <li><a href="contact/contact.html">Contact Us</a></li>
+
+            </ul>
+            <div class="side-nav">
+                <a href="#">log In / Registration</a>
+                <a href="#booking-table">Book Table</a>
+            </div>
+    </nav>
+    <div id="section-1" class="container hero">
+        <div class="description">
+            <p style="font-size: 15px;" class="text-g1">Chase The New Flavour</p>
+            <h1 class="big_text">The key to</br> Fine dining</h1>
+            <p>Sit tellus lobortis sed senectus vivamus molestie.</br>Condimentum volutpat morbi facilisis quam scelerisque sapien.</br> Et, penatibus aliquam amet tellus </p>
+        </div>
+        <div class="image-description">
+            <img class="main-photo" width="404px" height="407px" src="static/images/main.jpg" alt="main image">
+            <div class="rectangle1"></div>
+            <div class="rectangle2"></div>
+        </div>
+    </div>
+
+</header>
+<div class="container section-show">
+    <div class="about">
+
+        <p id="value-g">G</p>
+
+        <div class="us">
+
+
+            <h2 style="padding-left:290px; font-size: 64px; padding-bottom: 30px;" class="big_text">About us</h2>
+
+            <p style="text-align: right; margin-right: 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Quis pharetra adipiscing ultrices</br> vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+            <div class="contain1"><a href="#" class="btn-more">Book Now</a>
+            </div>
+        </div>
+        <img style="display: block; float: right;" width="90px" height="600px" class="img-knife" src="static/images/knife.svg">
+        <div style="margin-left: 30px" class="history">
+            <h2 style="font-size: 64px" class="big_text">Our History</h2>
+
+            <p >Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.</br> Risus placerat morbi volutpat habitasse</br> interdum mi aliquam In sed odio nec aliquet.</p>
+            <div class="contain2">
+                <a href="#" class="btn-more">Book Now</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="booking-table" class="book-table container section-show" style="width: 1200px; height: 460px;">
+        <p style="display:block; text-align:center; font-family: 'Cormorant Upright', serif; font-size: 23px;">Reservation</p>
+        <h2 style="text-align:center; font-size: 64px" class="big_text">Book a Table</h2>
+        <div class="raw">
+            <select class="table-input" name="person">
+                <option style="color: #AAAAAA" value="1Person">1 Person</option>
+                <option style="color: #AAAAAA" value="2Persons">2 Persons</option>
+                <option style="color: #AAAAAA" value="3Persons">3 Persons</option>
+                <option style="color: #AAAAAA" value="4Persons">4 Persons</option>
+                <option style="color: #AAAAAA" value="5Persons">5 Persons</option>
+                <option style="color: #AAAAAA" value="6Persons">6 Persons</option>
+            </select>
+            <input class="table-input" type="date" min="2022-04-01" max="2022-05-20" placeholder="10:50AM">
+            <select class="table-input" name="time">
+                <option style="color: #AAAAAA" value="time">10:00AM</option>
+                <option style="color: #AAAAAA" value="time">11:00AM</option>
+                <option style="color: #AAAAAA" value="time">12:00AM</option>
+                <option style="color: #AAAAAA" value="time">01:00PM</option>
+                <option style="color: #AAAAAA" value="time">02:00PM</option>
+                <option style="color: #AAAAAA" value="time">03:00PM</option>
+                <option style="color: #AAAAAA" value="time">04:00PM</option>
+                <option style="color: #AAAAAA" value="time">05:00PM</option>
+                <option style="color: #AAAAAA" value="time">06:00PM</option>
+                <option style="color: #AAAAAA" value="time">07:00PM</option>
+                <option style="color: #AAAAAA" value="time">08:00PM</option>
+                <option style="color: #AAAAAA" value="time">09:00PM</option>
+            </select>
+        </div>
+        <div class="contain" id="table-book">
+            <a href="#" class="btn-more">Book Now</a>
+        </div>
+    </div>
+</div>
+
+<menu class="main-menu section-show">
+    <img class="img" width="100vw" height="900px" src="static/images/menu.png" alt="menu">
+    <ul class="container overlay">
+        <li><a href="">Bar Menu</a> </li>
+        <li><a href="">Food Menu</a> </li>
+        <li><a href="">Desert Menu</a> </li>
+    </ul>
+</menu>
+
+    <menu class="section-show">
+        <p style="display: block; text-align:center; font-size: 23px;">Menu that fits you palatte</p>
+        <h2 style="text-align:center; font-size: 64px;" class="big_text">Today's special</h2>
+        <div class="three-column">
+            <div class="wine">
+                <div class="column">
+                    <div>
+                        <p style="color: #DCCA87">Chapel Hill Shiraz</p>
+                        <div class="line"></div>
+                        <p style="color: #AAAAAA">$56</p>
+                    </div>
+                    <br/>
+                    <p style="margin-left: 80px; font-size: 16px;">AU | Bottle</p>
+                </div>
+
+
+                <div class="column">
+                    <div>
+                        <p style="color: #DCCA87">Catena Malbec</p>
+                        <div class="line"></div>
+                        <p style="color: #AAAAAA">$59</p>
+                    </div>
+                    <br/>
+                    <p style="margin-left: 80px; font-size: 16px;">AR | Bottle</p>
+                </div>
+
+                <div class="column">
+                    <div>
+                        <p style="color: #DCCA87">La Vieille Rosé</p>
+                        <div class="line"></div>
+                        <p style="color: #AAAAAA">$44</p>
+                    </div>
+                    <br/>
+                    <p style="margin-left: 80px; font-size: 16px;">FR | 750ml</p>
+                </div>
+
+                <div class="column">
+                    <div>
+                        <p style="color: #DCCA87">Rhino Pale Ale</p>
+                        <div class="line"></div>
+                        <p style="color: #AAAAAA">$31</p>
+                    </div>
+                    <br/>
+                    <p style="margin-left: 80px; font-size: 16px;">CA | 750 m</p>
+                </div>
+
+                <div class="column">
+                    <div>
+                        <p style="color: #DCCA87">Irish Guinness</p>
+                        <div class="line"></div>
+                        <p style="color: #AAAAAA">$23</p>
+                    </div>
+                    <br/>
+                    <p style="margin-left: 80px; font-size: 16px;">IE | 750ml</p>
+                </div>
+
+            </div>
+            <img width="410px" height="660px" src="static/images/cocktail.svg">
+            <div style="margin-right: 30px;" class="wine">
+                <div class="column">
+                    <div>
+                        <p style="color: #DCCA87">Aperol Spritz</p>
+                        <div class="line"></div>
+                        <p style="color: #AAAAAA">$20</p>
+                    </div>
+                    <br/>
+                    <p style="margin-left: 80px; font-size: 16px;">Aperol | Villa Marchesi prosecco | soda | 30m</p>
+                </div>
+
+
+                <div class="column">
+                    <div>
+                        <p style="color: #DCCA87">Dark 'N' Stormy</p>
+                        <div class="line"></div>
+                        <p style="color: #AAAAAA">$16</p>
+                    </div>
+                    <br/>
+                    <p style="margin-left: 80px; font-size: 16px;">Dark rum | Ginger beer | Slice of lime. </p>
+                </div>
+
+                <div class="column">
+                    <div>
+                        <p style="color: #DCCA87">Daiquiri</p>
+                        <div class="line"></div>
+                        <p style="color: #AAAAAA">$10</p>
+                    </div>
+                    <br/>
+                    <p style="margin-left: 80px; font-size: 16px;">Rum | Citrus juice | Sugar</p>
+                </div>
+
+                <div class="column">
+                    <div>
+                        <p style="color: #DCCA87">Old Fashione</p>
+                        <div class="line"></div>
+                        <p style="color: #AAAAAA">$31</p>
+                    </div>
+                    <br/>
+                    <p style="margin-left: 80px; font-size: 16px;">Bourbon | Brown sugar | Angostura Bitters</p>
+                </div>
+
+                <div class="column">
+                    <div>
+                        <p style="color: #DCCA87">Negroni</p>
+                        <div class="line"></div>
+                        <p style="color: #AAAAAA">$26</p>
+                    </div>
+                    <br/>
+                    <p style="margin-left: 80px; font-size: 16px;">Gin | Sweet Vermouth | Campari | Orange garnish</p>
+                </div>
+
+            </div>
+        </div>
+        <div style="padding-top: 80px; display: block; margin: auto; width:10%">
+            <a href="#" class="btn-more" style="padding: 10px;">Book Now</a>
+        </div>
+    </menu>
+    <section class="section-6 section-show">
+        <img src="static/images/chef-section/Image.svg" class="chef-img" alt="">
+        <div class="chef-block">
+            <h6 class="chef-word"><img class="chef-vector" src="static/images/chef-section/Vector.png" alt=""> Chief's Word</h6>
+            <h1 class="chef-h1">What We Belive In</h1>
+            <p><img class="vergul" src="static/images/chef-section/vergul.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, doloribus minus? Asperiores aspernatur voluptas impedit, dolores veritatis eum molestias corrupti odit quae obcaecati. Consectetur modi libero explicabo, nobis qui velit? </p>
+
+            <h3 class="chef-h3">Kevin Luo</h3>
+            <h5>Chief & Founder</h5>
+            <img class="kevin-img" src="static/images/chef-section/Kevin.png" alt="">
+        </div>
+    </section>
+    <div class="main section-show">
+        <div class="main__header">
+            <h3>Testimony</h3>
+            <h1>Happy Customers</h1>
+        </div>
+        <div class="main__content">
+            <div class="column">
+                <div class="main__card">
+                    <img src="static/images/customers/man-2.jpg" alt="">
+                    <div class="right">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum a ipsa minus esse illo. Repellendus nemo rem quas corrupti, sunt pariatur minus cumque.</p>
+                        <h2>Wade Warren</h2>
+                        <h5>Sommelier</h5>
+                    </div>
+                    <img class="customer-vergul" src="static/images/chef-section/vergul.png" alt="">
+                </div>
+                <div class="main__card">
+                    <img src="static/images/customers/woman-top.jpg" alt="">
+                    <div class="right">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum a ipsa minus esse illo. Repellendus nemo rem quas corrupti, sunt pariatur minus cumque.</p>
+                        <h2>Jane Cooper</h2>
+                        <h5>Chef</h5>
+                    </div>
+                    <img class="customer-vergul" src="static/images/chef-section/vergul.png" alt="">
+                </div>
+            </div>
+
+            <div class="column">
+
+                <div class="main__card">
+                    <img src="static/images/customers/man-1.jpg" alt="">
+                    <div class="right">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum a ipsa minus esse illo. Repellendus nemo rem quas corrupti, sunt pariatur minus cumque.</p>
+                        <h2>Robert Fox</h2>
+                        <h5>Chef</h5>
+                    </div>
+                    <img class="customer-vergul" src="static/images/chef-section/vergul.png" alt="">
+                </div>
+
+                <div class="main__card">
+                    <img src="static/images/customers/woman-2.jpg" alt="">
+                    <div class="right">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum a ipsa minus esse illo. Repellendus nemo rem quas corrupti, sunt pariatur minus cumque.</p>
+                        <h2>Brookly Simmons</h2>
+                        <h5>Caterer</h5>
+                    </div>
+                    <img class="customer-vergul" src="static/images/chef-section/vergul.png" alt="">
+                </div>
+
+            </div>
+
+    </div>
+    <div class="container section-show" style="margin-top: 100px; background-color: #0c0c0c;">
+        <div class="award">
+            <div class="description">
+    `           <p>Awards & recognition</p>
+                <img src="static/images/Vector.png" arl="spoon">
+                <h2 class="big_text">Our Laurels</h2>`
+                <div class="winning-place">
+                    <div class="btw-space">
+                        <img class="size-award-pic" src="static/images/award/2-award.png">
+                        <div>
+                            <p style="font-size: 23px">Bib Gourmond</p>
+                            <p style="font-size: 16px">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                    <div class="btw-space">
+                        <img class="size-award-pic" src="static/images/award/1-award.png">
+                        <div>
+                        <p style="font-size: 23px">Rising Sta</p>
+                        <p style="font-size: 16px">Lorem ipsum dolor sit amet, consectetur</p>
+                            </div>
+                    </div>
+                </div>
+                <br>
+                <div class="winning-place">
+                    <div class="btw-space">
+                        <img class="size-award-pic" src="static/images/award/5-award.png">
+                        <div>
+                        <p style="font-size: 23px">AA Hospitality</p>
+                        <p style="font-size: 16px">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                    <div class="btw-space">
+                        <img class="size-award-pic" style="margin-left: 10px; width: 65px;" src="static/images/award/3-award.png">
+                        <div>
+                        <p style="font-size: 23px">Outstanding Chief</p>
+                        <p style=" font-size: 16px">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img width="400px" height="570px" src="static/images/award/award.jpg" alt="award">
+        </div>
+    </div>
+
+    <!-- /////////////// -->
+    <section id="blog-section" class="container section-show" style="margin-top: 100px;">
+        <p id="blog-text">Blog</p><br>
+
+        <p style="display: block; font-size: 63px;text-align: center;">Gerícht updates</p>
+        <div class="card-row">
+            <div class="card-caption">
+                <img class="card-image" src="static/images/udpate/update1.png" alt="Card image cap">
+                <div class="card--body">
+                    <h5 class="card__title">Tips For Prepping And Caring For Your Grill</h5>
+                    <p class="card--text-cp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                    <div>
+                        <a href="#" class="link-to-recipe">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-caption">
+                <img class="card-image" src="static/images/udpate/update2.png" alt="Card image cap">
+                <div class="card--body">
+                    <h5 class="card__title">Summer Cocktails And Mocktails</h5>
+                    <p class="card--text-cp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                    <div>
+                        <a href="#" class="link-to-recipe">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-caption">
+                <img class="card-image" src="static/images/udpate/update3.png" alt="Card image cap">
+                <div class="card--body">
+                    <h5 class="card__title">Easy Cooking For College Students</h5>
+                    <p class="card--text-cp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                    <div>
+                    <a href="#" class="link-to-recipe">Read more</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <a href="#" class="btn-more">Book Now</a>
+        </div>
+    </section>
+
+
+    <section class="gallery section-show">
+
+            <div class="columns">
+            <h2 style="color: white">Gallery</h2>
+            <img src="static/images/Vector.png">
+
+                <h3 style="font-size: 64px">Photo Gallery</h3>
+                <p style="margin-top: 15px; margin-left: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis <br> ipsum turpi selit elit scelerisque egestas mu</p>
+                <div style="display: block;">
+                    <a href="" class="btn-more">View More</a>
+                </div>
+            </div>
+            <img class="columns" width="300px" height="400px" src="static/images/gallery/galery-1.jpg" alt="galery">
+            <img class="columns" width="300px" height="400px" src="static/images/gallery/galery-2.jpg" alt="galery">
+            <img class="columns" width="300px" height="400px" src="static/images/gallery/galery-3.jpg" alt="galery">
+
+    </section>
+
+
+    <section class="newsletter-section section-show">
+        <div class="news-block">
+            <h3>Newsletter <img class="newsletter-vector" src="img/Vector.png" alt=""></h3>
+            <h1>Subscribe To Our Newsletter</h1>
+            <h4>And never miss last Updates !</h4>
+            <form action="">
+                <input type="email" class="input-email" name="email" required="required" placeholder="Email Address">
+                <button class="sub-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+
+
+<footer id="contact-section">
+        <div class="contact-block">
+            <h2>Contact Us</h2>
+            <p>9w S3rd St New York, NY 10019, USA</p>
+            <p>+1 212-344-1230</p>
+            <p>+1 212-555-1230  </p>
+        </div>
+        <div class="social-block">
+            <h1>GERITCH</h1>
+            <p>The best way to find yourself is too lose yourself in the service of others</p>
+            <img src="img/Vector.png" alt="">
+            <div class="social-media">
+                <a href="#facebook"> <i class="fa-brands fa-facebook-f"></i></a>
+                <a href="twitter"> <i class="fa-brands fa-twitter"></i></a>
+                <a href="instagram"> <i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="work-time">
+            <h2>Working Hours</h2>
+            <p>Monday-Friday:</p>
+            <p>08:00am - 12.00am</p>
+            <p>Saturday-Sunday</p>
+            <p>07:00am - 11:00am</p>
+        </div>
+        <a class="top-link" href="#section-1"><i class="fa-solid fa-angles-up"></i></a>
+        <p class="last-word">2021 Gericht. All Rights reserved</p>
+    </footer>
+</body>
+</html>

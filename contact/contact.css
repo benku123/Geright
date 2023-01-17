@@ -1,0 +1,289 @@
+body{
+    background-color: black !important;
+}
+.navbar-header a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 550px;
+    font-family: "Open Sans";
+    background-color: black;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_link a{
+    color: white;
+}
+.side-nav a {
+    color: white;
+}
+nav.logo{
+   align-self: flex-start;
+}
+
+
+
+.menu a{
+    text-decoration: none;
+    color: white;
+
+}
+.registration a{
+    text-decoration: none;
+    color: white;
+
+}
+.mask img{
+   width:100%;
+   height: 550px;
+}
+.contact01{
+   color: #f6ff00d4;
+   position:absolute;
+   font-size: 60px;
+   font-family: 'Cormorant Upright', serif;
+   top: 48%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.contact02{
+    
+   color: white;
+   position:absolute;
+   size: 40px;
+   top: 59%;
+   left: 49%;
+   transform: translate(-50%,-50%);
+}
+
+.mn__container{
+   background-color: black;
+   height: 400px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+  }
+.mask02{
+   position: absolute;
+   align-items: center;
+   right: 160px;
+   top: 680px;
+}
+#l412{
+   position: absolute;
+   right: 5%;
+   bottom: 2px;
+}
+.container02{
+    background-color:black;
+    height: 100vh;
+    width: 100vw;
+    position:relative;
+    margin-top: 100px;
+}
+
+.box1{
+  position: absolute;
+  top: 180px; left: 300px;
+}
+
+
+#message01{
+   width: 315px;
+   height:100px;
+}
+.subs{
+   left: 11px;
+   position:absolute;
+}
+.box2{
+     position: absolute;
+     align-items: center;
+     
+     right: 308px;
+}
+.lastpage{
+     width: 100%;
+     height: 100vh;
+     position: absolute;
+     top: 238%;    
+     color: white;
+
+}
+.news{
+  
+  text-align: center;
+  
+}
+#email401{
+  color: white;
+  width: 500px;
+  height: 50px;
+}
+#subs402{
+  position: absolute;
+  top: 330px;
+}
+#logo411{
+  position: relative;
+  left: 140px;
+}
+.c01{
+  position: absolute;
+  left: 15px;
+  bottom: 147px;
+}
+.c02{
+  position: relative;
+
+}
+.c03{
+  position: absolute;
+  right: 7%;
+  bottom: 128px;
+}
+.c04{
+  position: absolute;
+  left: 42%;
+  bottom: 3%;
+}
+
+
+
+input{
+    border: 2px solid white;
+    width: 400px;
+    height: 30px;
+    transition: all 0.7s ease 0s;
+    margin: 30px;
+}
+
+.input:hover{
+    border: 2px solid #DCCA87;
+}
+
+/* NEWSLETTER BLOCK */
+.newsletter-section{
+  height: 500px;
+  padding: 80px 180px;
+}
+
+.news-block{
+  background-color: #0c0c0c;
+  border: 1px solid #DCCA87;
+  height: 100%; display: flex;
+  flex-direction: column;  align-items: center;
+  justify-content: space-evenly;
+}
+.news-block h1{
+  color: #DCCA87; font-size: 3em;
+  font-family: 'Cormorant Upright', serif;
+  letter-spacing: 3px;
+}
+.news-block h3{
+  position: relative;
+}
+.newsletter-vector{
+  position: absolute; left: 30%; bottom: -20px;
+}
+.news-block form{
+  width: 70%; display: flex;
+  justify-content: space-evenly; align-items: center;
+}
+.input-email{
+  width: 75%; height: 40px;
+  background-color: inherit;
+  border: 1px solid #DCCA87;
+  outline: none; font-weight: bold;
+  font-size: 1.1em; color: #DCCA87;
+  padding: 5px;
+}
+.input-email::placeholder{
+  color: rgb(168, 163, 153);
+}
+.sub-btn{
+  background-color: #DCCA87;
+  outline: none; width: 130px;
+  height: 85%; font-weight: bold;
+  letter-spacing: 1px;
+  color:white;
+}
+
+
+/* ///////////////////////////////////////// */
+/* FOOTER */
+#contact-section{
+  display: flex; justify-content: space-evenly;
+  align-items:center;
+  height: 500px; padding: 100px 200px 100px 100px;
+  color: rgb(160, 157, 157);
+  position: relative;
+}
+footer > div{
+  height: 100%;
+  display: flex; flex-direction: column;
+  align-items:center;
+}
+
+.social-block{
+  height: 100%;
+}
+.social-block h1{
+  color: #DCCA87; letter-spacing: 4px;
+  font-family: 'Cormorant Upright', serif;
+  font-size: 2.5em; margin-bottom: 30px;
+}
+.social-block p{
+  width: 355px; text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-media{
+  width: 100px; display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.social-media i{
+  font-family: "Fontawesome";
+  color: rgb(168, 163, 153); font-size: 1.5em;
+}
+.social-media a:hover i{
+  color: #DCCA87;
+}
+
+.contact-block h2{
+  margin: 30px 0;
+}
+.contact-block p:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.work-time h2{
+  margin: 30px 0;
+}
+.work-time p:nth-child(3){
+  margin-bottom: 15px;
+}
+.work-time p{
+  margin-bottom: 3px;
+}
+
+.top-link{
+  color: white;
+  position: absolute; right: 30px;
+  bottom: 70px; font-size: 2em;
+}
+
+.last-word{
+  position: absolute;
+  left: 530px; bottom: 30px;
+}
+
