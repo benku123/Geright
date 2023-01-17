@@ -1,4 +1,7 @@
-# Restaurant (Geright) Website
+# Restaurant (Geright)
+
+<img src="img.png">
+
 ## Table of Contents
 [1. Project Descriptions](#project-description)
 
@@ -26,19 +29,19 @@ The website is based on ideas and templates from Figma and serves as a practice 
 ## Important Sections
 In the presentation, the team will focus on the important sections of the website, such as:
 
-### Homepage
+#### Homepage
 - The homepage features an image and 2 div blocks, which were positioned and styled using CSS to create the desired look.
-### Navbar
+#### Navbar
 - The navbar helps users navigate through the website and is a familiar feature for users.
-### About Restaurant
+#### About Restaurant
 - The "About Restaurant" section includes an implementation of a knife using an SVG file, which makes the knife transparent and the letter G is text rather than a background picture.
-### Chief's section
+#### Chief's section
 - The "Chief's section" includes an image of the founder of the restaurant and a sign in the form of a PNG image.
-### Happy Customers
+#### Happy Customers
 - This section will later include comments about people's opinions and their pictures, which will be retrieved from an Instagram API.
-### Photo gallery/Instagram
+#### Photo gallery/Instagram
 - This section will later include updates from Instagram, which will be retrieved from an Instagram API.
-### Service Page/Blog page
+#### Service Page/Blog page
 - Every page includes a footer section, where users can sign up for newsletters and view basic information about the restaurant.
 ## File Structure
 The main HTML file for the project is index.html. The "static" folder is the base for the project, where all HTML files in the project refer to common CSS classes or images. Each web page has its own separate folder to make it easier to distinguish.
